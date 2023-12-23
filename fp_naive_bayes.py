@@ -125,6 +125,7 @@ else:
     print(f"==========================================")
     print(f"Probabilitas Kelas Negatif: {negatif:.2f}")
     print(f"Probabilitas Kelas Positif: {positif:.2f}")
+    print(f"Total Probabilitas: {negatif+positif} ")
     print(f"==========================================")
 
 #Menentukan hasil kasus
