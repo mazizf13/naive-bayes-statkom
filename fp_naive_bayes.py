@@ -122,8 +122,10 @@ else:
     negatif /= total_probability
     positif /= total_probability
 
+    print(f"==========================================")
     print(f"Probabilitas Kelas Negatif: {negatif:.2f}")
     print(f"Probabilitas Kelas Positif: {positif:.2f}")
+    print(f"==========================================")
 
 #Menentukan hasil kasus
 kasus = "Positif" if positif > negatif else "Negatif"
